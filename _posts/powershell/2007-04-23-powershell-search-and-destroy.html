@@ -1,0 +1,34 @@
+---
+layout: post
+title: PowerShell - search and destroy
+---
+Disclaimer: having started, stopped and re-started many blogs in my life, I recommend that you  hold no expectations for the the lifespan on this blog. That said, enjoy the posts!
+
+So out of all the things I don't know, PowerShell is the one thing that made it to the top of my <span style="font-weight: bold;">To Learn</span> stack. Last week I ordered <a href="http://www.amazon.com/Windows-PowerShell-Action-Bruce-Payette/dp/1932394907/ref=pd_bbs_sr_1/102-7531966-1417704?ie=UTF8&amp;s=books&amp;qid=1177382702&amp;sr=8-1">PowerShell In Action</a>, it hasn't arrived yet but I've already read about 100 pages out of the PDF (don't ask). The book is very well written and describes the core concepts of PowerShell very well.
+
+Having (almost) never written a batch file in my life it is taking a bit for me to wrap my head around the basics but so far I love it. Compiling C# apps to do simple tasks like iterate directory structures and process files has always annoyed me. There is just too much overhead in having to compile and manage both the source code an executable when you only need the code once (until tomorrow comes).
+
+I just want to create a script and run it, no compile, no exe - oh, and since I've been completely spoiled by the .NET framework I want access to all that too. PowerShell fits the bill.
+
+My first task. Find all files with an extension of *.bak on my C: drive and delete them.
+
+Here was my discovery process...
+<pre>#  move to C: drive
+cd c:\
+
+#  list all files in C:
+dir
+
+#  list all *.BAK files in C:
+dir *.BAK
+
+#  do it recursively
+dir -recurse -filter *.BAK</pre>
+Ok, so now that I've got PowerShell spinning through my entire C: drive how do I stop it? You can always kill the process but I was in a pretty good mood today and decided to be nice. This is likely to be one of the most important things you learn about PowerShell so remember it well...
+<pre><b>CTRL+C</b></pre>
+That will halt execution of whatever PowerShell is doing get you back to a prompt. Very handy for people like me who like tend to hit <code>[Enter]</code> before thinking about how long it might take to run.
+<blockquote><b>TIP:</b> <code>dir</code> (along with <code>ls</code>) is just an alias for the <code>Get-ChildItem</code> command. You can get the full syntax for this command by running <code>Get-Help dir</code>.</blockquote>
+And if you want to delete all those *.BAK files you just found? Just pipe your <code>dir</code> command to <code>del</code> (which is an alias for <code>Remove-Item</code>).
+
+<pre>dir -recurse -filter *.BAK | del
+</pre>
