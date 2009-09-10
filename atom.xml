@@ -4,13 +4,13 @@ layout: nil
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>Scott Chacon</title>
- <link href="http://schacon.github.com/atom.xml" rel="self"/>
+ <title>Joshua Poehls</title>
+ <link href="http://jpoehls.github.com/atom.xml" rel="self"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://schacon.github.com/</id>
+ <id>http://jpoehls.github.com/</id>
  <author>
-   <name>Scott Chacon</name>
-   <email>schacon@gmail.com</email>
+   <name>Joshua Poehls</name>
+   <email>jpoehls@gmail.com</email>
  </author>
  
  {% for post in site.posts %}
