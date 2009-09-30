@@ -286,98 +286,33 @@
 }
 
 
-
 /**************************************************************
-   Thumbnail Lists
+   Projects
  **************************************************************/
-
-ul.thumbs,
-ul.thumbs li {
-  margin: 0;
-  padding: 0;
-}
-
-ul.thumbs li {
-  margin: 0 0 15px 0 !important;
-  margin: 0;
-  padding: 0px;
-  list-style: none;
-}
-
-a.thumb img {
-  
-  border: 1px solid #ccc;
-}
-
-a:hover.thumb img {
-  background: #8EB4C6;
-  border: 1px solid #630031;
-}
-
-a:hover.thumb {
-  background: none;
-}
-
-a.thumb span {
-  display: block;
-  margin-top: -5px !important;
-  margin-top: -2px;
-}
-
-
-
-/**************************************************************
-   Submenu Styles
- **************************************************************/
-
-ul.submenu1,
-ul.submenu2 {
-  margin: 0 0 20px 0;
-  padding: 0;
-}
-
-ul.submenu1 li,
-ul.submenu2 li{
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  list-style-image: url(foo.gif); /* because IE is balls */
-}
-
-ul.submenu1 li a,
-ul.submenu2 li a {
-  display: block;
-  height: auto !important;
-
-  /* Start hide from IE Mac \*/
-  height: 1%;
-  /* End hide from IE Mac */
-
-  padding: 1px 5px 1px 20px;
-}
-
-ul.submenu1 li a {
-  background: url(/images/bg/submenu1.gif) no-repeat 5px 50%;
-}
-
-ul.submenu1 a:hover {
-  color: #426F85;
-  background: #B3C6C4 url(/images/bg/submenu1.gif) no-repeat 5px 50%;
-}
-
-ul.submenu2 li a {
-  color: #426F85;
-  background: url(/images/bg/submenu2.gif) no-repeat 3px 50%;
-}
-
-ul.submenu2 a:hover {
-  color: #426F85;
-  background: #B3C6C4 url(/images/bg/submenu2.gif) no-repeat 3px 50%;
-}
-
-
-
-
+ 
+ .project 
+ {
+     
+ }
+ 
+ .project .status_active, .project .status_hold 
+ {
+     color: #fff;
+     padding: .3em;
+     font-weight: bold;
+ }
+ 
+ .project .status_active 
+ {
+     background-color: Green;
+ }
+ 
+ .project .status_hold
+ {
+     background-color: Gray;
+ }
+ 
+ 
 
 
 /**************************************************************
