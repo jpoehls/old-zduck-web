@@ -3,12 +3,8 @@ Joshua Poehls (Zduck) Blog
 
 This is the Jekyll source for Joshua Poehls' blog.
 
-I copied it from Scott Chacons blog as a sample to base mine on and...
+The design of this site is based on the Nautica05 theme from www.opensourcetemplates.org and www.studio7designs.com.
 
-It was based off of the awesome Michael Bleigh's blog and website, [Mister Bleigh](http://www.mbleigh.com/), and he gets fullcredit for everything that is good looking or impressive about this site.
+The content of the site (blog posts and page content) is licensed under a Creative Commons Attribution license (you may use it, but must give attribution).
 
-It makes some nice use of Jekyll's liquid templating system (see blog.html) and uses Javscript to pull information from GitHub for the open-source section.
-
-You may feel free to re-use any part of the structure, design, and layout of this site; it is all licensed under the MIT License. However, the content of the site (blog posts and page content) is licensed under a Creative Commons Attribution license (you may use it, but must give attribution).
-
-Copyright (c) 2009 Joshua Poehls. Rights reserved as indicated above.
+Copyright (c) 2007-2009 Joshua Poehls. Rights reserved as indicated above.

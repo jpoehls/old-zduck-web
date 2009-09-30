@@ -1,53 +1,60 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-
 <html>
-  <head>
-    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-    <title>Joshua Poehls - {{ page.title }}</title>
-    <link rel="stylesheet" href="/stylesheets/master.css" type="text/css" media="screen" charset="utf-8"/>
-    <script src="/javascripts/jquery.js" type="text/javascript" charset="utf-8"></script>
-    <script src="/javascripts/jquery.github.js" type="text/javascript" charset="utf-8"></script>
-    <!--<link rel='alternate' type='application/rss+xml' href='http://jpoehls.github.com/atom.xml' />-->
-  </head>
-  <body>
-    <div id='wrapper'>
-      <div id='header'>
-        <h1>Joshua Poehls</h1>
-        <h2>a.k.a. Zduck</h2>
-      </div>
-      <div id='menu'>
-        <ul>
-          <li><a href='/'>Home</a></li>
-          <li><a href='/blog.html'>Blog</a></li>
-          <!--<li><a href='/about.html'>About</a></li>-->
-          <!--<li><a href='/open-source.html'>Open Source</a></li>-->
-          <!--<li><a href='http://github.com/jpoehls' target='_blank' rel='me'>GitHub</a></li>-->
-          <li><a href='http://www.linkedin.com/in/jpoehls' target='_blank' rel='me'>LinkedIn</a></li>
-          <li><a href='http://twitter.com/jpoehls' target='_blank' rel='me'>Twitter</a></li>
-        </ul>
-      </div>
-      <div id='content'>
-        {{ content }}
-        <div class='clearfix'></div>
-      </div>
+<head>
+    <title>Zduck => {{ page.title }}</title>
+    <script src="/javascripts/jquery.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/reset.css" media="screen, projection, tv" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/layout.css" media="screen, projection, tv" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/html.css" media="screen, projection, tv" />
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" />
+</head>
+<body>
+    <div id="content">
+        <div id="header" class="width">
+            <ul>
+                <li><a href="/atom.xml">
+                    <img src="/images/subscribe-icon.gif" alt="Subscription Icon" style="height: .8em;" />
+                    Subscribe via Atom</a></li>
+                <li><a href="http://www.github.com/jpoehls/jpoehls.github.com" class="last">Git my
+                    source</a></li>
+            </ul>
+        </div>
+        <div id="headerImg" class="width">
+        </div>
+        <div id="menu" class="width">
+            <ul>
+                <li><a href="/index.html"><span class="title">Blog</span> <span class="desc">Skim. Comment.
+                    Go.</span></a></li>
+                <li><a href="http://www.flickr.com/jpoehls"><span class="title">Photostream</span> <span
+                    class="desc">Flickr. Photos. Nuff-said.</span> </a></li>
+                <li><a href="http://www.linkedin.com/in/jpoehls"><span class="title">Linked-in</span> <span
+                    class="desc">Me. Work. Resume.</span> </a></li>
+                <li><a href="/projects.html"><span class="title">Projects</span> <span class="desc">
+                    In Progress. Always.</span> </a></li>
+            </ul>
+        </div>
+        <div id="page">
+            <div id="columns" class="widthPad">
+                {{ content }}
+            </div>
+        </div>
     </div>
-    <div id='footer'>
-      Copyright &copy; 2009 Joshua Poehls. Theme and code by <a href="http://github.com/mbleigh">Michael Bleigh</a>. Hosted by <a href='http://github.com/jpoehls/jpoehls.github.com/' target='_blank'>GitHub</a> and powered by <a href='http://github.com/mojombo/jekyll'>Jekyll</a>.
+    <div id="footer">
+        <div id="bg" class="width">
+            <p>
+                <a rel="license" href="http://creativecommons.org/licenses/by/3.0/us/">
+                    <img alt="Creative Commons License" style="border-width: 0" src="/images/cc.png" /></a><br />
+                <span xmlns:dc="http://purl.org/dc/elements/1.1/" property="dc:title">This website</span>
+                by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.zduck.com" property="cc:attributionName"
+                    rel="cc:attributionURL">Joshua Poehls</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/us/">
+                        Creative Commons Attribution 3.0 United States License</a>.
+            </p>
+            <p class="last">
+                The design is based on the Nautica05 theme from <a href="http://www.opensourcetemplates.org">
+                    opensourcetemplates.org</a> and <a href="http://www.studio7designs.com">studio7designs.com</a>.
+            </p>
+        </div>
     </div>
-		<script type="text/javascript">
-		//<![CDATA[
-		(function() {
-			var links = document.getElementsByTagName('a');
-			var query = '?';
-			for(var i = 0; i < links.length; i++) {
-			if(links[i].href.indexOf('#disqus_thread') >= 0) {
-				query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
-			}
-			}
-			document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/zduck/get_num_replies.js' + query + '"></' + 'script>');
-		})();
-		//]]>
-		</script>
-  </body>
+</body>
 </html>
