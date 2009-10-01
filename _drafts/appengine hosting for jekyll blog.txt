@@ -1,0 +1,7 @@
+installed python 2.5.4 -- google app engine is not compatible with releases newer than 2.5
+
+followed steps for setting up my dev environment at http://code.google.com/appengine/docs/python/gettingstarted/devenvironment.html
+
+show sample app.yaml that got it working
+
+git integration?
