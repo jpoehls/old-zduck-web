@@ -1,1 +1,1 @@
-appcfg.py --email=jdpoehls@gmail.com update ../publish/jpoehls.github.com
+appcfg.py --email=jdpoehls@gmail.com update ../publish/zduck-web

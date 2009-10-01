@@ -1,1 +1,1 @@
-c:\ruby\bin\jekyll --pygment ../publish/jpoehls.github.com
+c:\ruby\bin\jekyll --pygment ../publish/zduck-web
