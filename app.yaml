@@ -1,0 +1,26 @@
+application: zduck-web
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /
+  static_files: index.html
+  upload: index.html
+
+- url: /images
+  static_dir: images
+  
+- url: /javascripts
+  static_dir: javascripts
+
+- url: /stylesheets
+  static_dir: stylesheets
+  
+- url: /atom\.xml
+  static_files: atom.xml
+  upload: atom\.xml
+  
+- url: /(.*\.(html|htm))
+  static_files: \1
+  upload: (.*\.(html|htm))
