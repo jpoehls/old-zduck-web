@@ -24,3 +24,8 @@ handlers:
 - url: /(.*\.(html|htm))
   static_files: \1
   upload: (.*\.(html|htm))
+ 
+- url: /favicon\.ico
+  static_files: favicon.ico
+  upload: favicon\.ico
+  mime: image/x-icon
