@@ -5,55 +5,56 @@ title: Clearing ASP.NET control values
 Have you ever needed to clear the values of a bunch of TextBoxes on your ASP.NET page? Not all the TextBoxes, but maybe all the ones in a certain Panel. Or maybe you need to reset all the DropDownLists too?
 
 This is a method I wrote to do just that. It clears the values of all child controls under a given parent. Enjoy.
-<pre class="csharpcode">
-<span class="kwrd">public</span> <span class="kwrd">static</span> <span class="kwrd">void</span> ClearControlValues(Control parentCtrl, <span class="kwrd">bool</span> recursive)
+{% highlight csharp %}
+public static void ClearControlValues(Control parentCtrl, bool recursive)
 {
-ClearControlValues(parentCtrl, recursive, <span class="kwrd">new</span> List&lt;Control&gt;(0));
+ ClearControlValues(parentCtrl, recursive, new List<Control>(0));
 }
 
-<span class="kwrd">public</span> <span class="kwrd">static</span> <span class="kwrd">void</span> ClearControlValues(Control parentCtrl, <span class="kwrd">bool</span> recursive, List&lt;Control&gt; ignoreControls)
+public static void ClearControlValues(Control parentCtrl, bool recursive, List<Control> ignoreControls)
 {
-<span class="kwrd">foreach</span> (Control ctrl <span class="kwrd">in</span> parentCtrl.Controls)
-{
-    <span class="kwrd">bool</span> skipMe = <span class="kwrd">false</span>;
+ foreach (Control ctrl in parentCtrl.Controls)
+ {
+     bool skipMe = false;
 
-    <span class="kwrd">foreach</span> (Control ignoreCtrl <span class="kwrd">in</span> ignoreControls)
-    {
-        <span class="kwrd">if</span> (ctrl.ID == ignoreCtrl.ID)
-        {
-            skipMe = <span class="kwrd">true</span>;
-            <span class="kwrd">break</span>;
-        }
-    }
+     foreach (Control ignoreCtrl in ignoreControls)
+     {
+         if (ctrl.ID == ignoreCtrl.ID)
+         {
+             skipMe = true;
+             break;
+         }
+     }
 
-    <span class="kwrd">if</span> (skipMe)
-        <span class="kwrd">continue</span>;
+     if (skipMe)
+         continue;
 
-    <span class="kwrd">if</span> (ctrl.GetType() == <span class="kwrd">typeof</span>(TextBox))
-        ((TextBox)ctrl).Text = <span class="kwrd">string</span>.Empty;
+     if (ctrl.GetType() == typeof(TextBox))
+         ((TextBox)ctrl).Text = string.Empty;
 
-    <span class="kwrd">if</span> (ctrl.GetType() == <span class="kwrd">typeof</span>(DropDownList))
-        ((DropDownList)ctrl).ClearSelection();
+     if (ctrl.GetType() == typeof(DropDownList))
+         ((DropDownList)ctrl).ClearSelection();
 
-    <span class="kwrd">if</span> (ctrl.GetType() == <span class="kwrd">typeof</span>(RadioButton))
-        ((RadioButton)ctrl).Checked = <span class="kwrd">false</span>;
+     if (ctrl.GetType() == typeof(RadioButton))
+         ((RadioButton)ctrl).Checked = false;
 
-    <span class="kwrd">if</span> (ctrl.GetType() == <span class="kwrd">typeof</span>(CheckBox))
-        ((CheckBox)ctrl).Checked = <span class="kwrd">false</span>;
+     if (ctrl.GetType() == typeof(CheckBox))
+         ((CheckBox)ctrl).Checked = false;
 
-    <span class="kwrd">if</span> (ctrl.GetType() == <span class="kwrd">typeof</span>(RadioButtonList))
-        ((RadioButtonList)ctrl).ClearSelection();
+     if (ctrl.GetType() == typeof(RadioButtonList))
+         ((RadioButtonList)ctrl).ClearSelection();
 
-    <span class="kwrd">if</span> (ctrl.GetType() == <span class="kwrd">typeof</span>(CheckBoxList))
-        ((CheckBoxList)ctrl).ClearSelection();
+     if (ctrl.GetType() == typeof(CheckBoxList))
+         ((CheckBoxList)ctrl).ClearSelection();
 
-    <span class="kwrd">if</span> (ctrl.GetType() == <span class="kwrd">typeof</span>(ListBox))
-        ((ListBox)ctrl).ClearSelection();
+     if (ctrl.GetType() == typeof(ListBox))
+         ((ListBox)ctrl).ClearSelection();
 
 
-    <span class="kwrd">if</span> (recursive == <span class="kwrd">true</span>)
-    {
-        ClearControlValues(ctrl, <span class="kwrd">true</span>, ignoreControls);
-    }
+     if (recursive == true)
+     {
+         ClearControlValues(ctrl, true, ignoreControls);
+     }
+ }
 }
-}</pre>
+{% endhighlight %}
