@@ -1,0 +1,10 @@
+﻿destination: ../publish/zduck-web
+lsi: false
+pygments: false
+markdown: maruku
+permalink: /:year/:month/:day/:title.html
+maruku:
+  use_tex: false
+  use_divs: false
+  png_dir: images/latex
+  png_url: /images/latex
