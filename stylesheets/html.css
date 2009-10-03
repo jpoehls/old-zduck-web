@@ -69,23 +69,6 @@ h5
     padding-right: 5px;
 }
 
-/* Links */
-.post a
-{
-    color: #333;
-    background-color: #eee;
-    border-bottom: 1px solid #ccc;
-    padding: 0 4px 0 4px;
-    text-decoration: none;
-}
-
-.post a:hover
-{
-    background-color: #ddd;
-    border-bottom: 1px solid #bbb;
-    color: #000;
-}
-
 a
 {
     text-decoration: none;
@@ -129,18 +112,6 @@ img.floatLeft
 ul li
 {
     list-style-image: url(/images/bg/submenu1.gif);
-}
-
-ol li
-{
-    font-weight: bold;
-    color: #668FA3;
-}
-
-ol li span
-{
-    font-weight: normal;
-    color: #444;
 }
 
 /* Blockquote */
