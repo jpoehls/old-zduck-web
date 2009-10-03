@@ -1,0 +1,6 @@
+﻿BUG! pygments isn't working -- possible jekyll bug but fix didn't seem to work
+NEW! add delicious feed to homepage
+NEW! use LSI to generate related posts, but need to install that faster version the prompt mentions
+BUG! review all blog posts and fix markup issues
+NEW! add comments via Disqus
+NEW! use feedburner for rss
