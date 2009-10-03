@@ -1,0 +1,21 @@
+how to hatch a pygments egg or how to install your first Python egg
+
+1. download ez_setup.py from http://peak.telecommunity.com/dist/ez_setup.py
+	
+	"Easy Install is a python module (easy_install) bundled with setuptools that lets you automatically download, build, install, and manage Python packages."
+
+	? docs for Easy Install are here: http://peak.telecommunity.com/DevCenter/EasyInstall
+
+2. from the command line: python ez_setup.py 
+
+	this will put an easy_install.exe file (and related scripts) in your C:\Python2x\Scripts folder
+		http://peak.telecommunity.com/DevCenter/EasyInstall#windows-notes
+
+note: if your Python scripts folder is not already in your PATH environment variable you may want to add it, this will make it easier to run scripts from that directory later on
+	? why does this make it easier - find link to explain PATH
+
+3. download the latest Pygments egg for your version of Python from http://pygments.org/download/ -- http://pypi.python.org/pypi/Pygments
+
+4. from the command line: easy_install Pygments-x.y.z-pyX.egg
+
+5. this will put add a 'pygmentize' script to your default Python scripts folder (probably C:\Python2x\Script)
