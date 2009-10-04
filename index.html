@@ -1,8 +1,11 @@
 ---
-layout: singlecol
+layout: master
 title: Blog
 full_posts: 3
 ---
+
+<script type="text/javascript" src="/javascripts/jquery.delicious.js">
+</script>
 
 <script type="text/javascript">
 
@@ -15,27 +18,38 @@ full_posts: 3
             this.style.backgroundColor = '';
         });
 
+        $('#delicious-posts').delicious('digiduck', { popopen: true });
+
     });
 
 </script>
 
-{% for post in site.posts %}
-    
-    <div class="postBlock">
-        <table cellspacing="0" cellpadding="0">
-            <tr>
-                <td class="date">{{post.date | date_to_string}}</td>
-                <td>
-                    <a class="title" href="{{post.url}}">{{post.title}}</a>
-                    
-                    {% for category in post.categories %}
-                    <a class="category" href="#">{{category}}</a>
-                    {% endfor %}
-                </td>
-            </tr>
-        </table>
-    </div>
-    
-{% endfor %}
+<div class="width75" style="float: left;">
+    <h1>Bloggings</h1>
 
-<!-- { if forloop.index < page.full_posts } -->
+    {% for post in site.posts %}
+        
+        <div class="postBlock">
+            <table cellspacing="0" cellpadding="0">
+                <tr>
+                    <td class="date">{{post.date | date_to_string}}</td>
+                    <td>
+                        <a class="title" href="{{post.url}}">{{post.title}}</a>
+                        
+                        {% for category in post.categories %}
+                        <a class="category" href="javascript:;">{{category}}</a>
+                        {% endfor %}
+                    </td>
+                </tr>
+            </table>
+        </div>
+        
+    {% endfor %}
+
+    <!-- { if forloop.index < page.full_posts } -->
+</div>
+
+<div class="width25 horzPad" style="float: right;">
+    <h3>What I Found <a href="http://www.delicious.com/digiduck">Delicious</a></h3>
+    <div id="delicious-posts"></div>
+</div>
