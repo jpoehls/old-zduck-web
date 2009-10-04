@@ -69,43 +69,14 @@ h5
     padding-right: 5px;
 }
 
-a
+a 
 {
     text-decoration: none;
-    color: #3B5D77;
-}
-
-a:hover
-{
-    color: #668FA3;
 }
 
 a img
 {
     border: 0;
-}
-
-a img.border
-{
-    border: 1px solid #FC3307;
-}
-
-a:hover img.border
-{
-    /* Fixes IE bug - IE doesn't correctly apply the style on a:hover so need to mask it */
-    border: 1px solid #668FA3 !important;
-    border: 1px solid #FC3307;
-}
-
-/* Images */
-img.floatRight
-{
-    margin: 5px 0 10px 10px;
-}
-
-img.floatLeft
-{
-    margin: 5px 10px 10px 0;
 }
 
 /* Lists */

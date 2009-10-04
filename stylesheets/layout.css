@@ -302,7 +302,6 @@
     width: 99%;
     position: relative;
     margin-bottom: 1.5em;
-    border-bottom: 1px solid #CCCCCC;
 }
 
 .post .title
@@ -314,28 +313,10 @@
     color: #586B7A;
 }
 
-.post p
+.post .lightbox
 {
-    margin: 0 0 0 3.5em;
-    padding: 0 0 1em 1.2em;
-    border-left: 1px solid #CCCCCC;
-}
-
-/* Links */
-.post a
-{
-    color: #333;
-    background-color: #eee;
-    border-bottom: 1px solid #ccc;
-    padding: 0 4px 0 4px;
-    text-decoration: none;
-}
-
-.post a:hover
-{
-    background-color: #ddd;
-    border-bottom: 1px solid #bbb;
-    color: #000;
+    display: block;
+    text-align: center;
 }
 
 
