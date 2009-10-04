@@ -156,6 +156,7 @@
     width: 100%;
     margin-bottom: 6em;
     text-align: left;
+    font-size: 120%;
 }
 
 #columns
@@ -242,6 +243,51 @@
 #footer a:hover
 {
     color: #6C0;
+}
+
+
+/**************************************************************
+    Index
+**************************************************************/
+
+.postBlock
+{
+    width: 450px;
+    margin: 0;
+    padding: .3em 0;
+}
+
+.postBlock table
+{
+    width: 450px;
+}
+
+.postBlock .date 
+{
+    width: 100px;
+    text-align: center;
+    font-size: 80%;
+}
+
+.postBlock .title
+{
+    
+}
+
+.postBlock .category
+{
+    font-size: 70%;
+    background-color: #FFFFCC;
+    border: .2em solid #FFFFCC;
+    padding: .1em;
+    color: #333;
+    padding: 0;
+    margin: 0 .2em;
+}
+
+.postBlock .category:hover
+{
+    border: .2em solid gray;
 }
 
 

@@ -1,6 +1,10 @@
 ---
 layout: post
 title: Can you imagine?
+categories:
+  - random thoughts
+  - tools
+  - whatchamacallit
 ---
 
 Just something I was thinking about on the ride to work this morning...

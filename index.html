@@ -1,25 +1,41 @@
 ---
-layout: master
+layout: singlecol
 title: Blog
 full_posts: 3
 ---
 
+<script type="text/javascript">
+
+    $(document).ready(function() {
+        $(".postBlock")
+        .mouseover(function() {
+            this.style.backgroundColor = '#E9E9E9';
+        })
+        .mouseout(function() {
+            this.style.backgroundColor = '';
+        });
+
+    });
+
+</script>
+
 {% for post in site.posts %}
-    {% if forloop.index < page.full_posts %}
-    <div class="post">
-        <h1>
-            <a href='{{page.url}}'>{{post.title}}</a></h1>
-            <span class="date">{{post.date | date_to_string}}</span>
-        {{ post.content }}
+    
+    <div class="postBlock">
+        <table cellspacing="0" cellpadding="0">
+            <tr>
+                <td class="date">{{post.date | date_to_string}}</td>
+                <td>
+                    <a class="title" href="{{post.url}}">{{post.title}}</a>
+                    
+                    {% for category in post.categories %}
+                    <a class="category" href="#">{{category}}</a>
+                    {% endfor %}
+                </td>
+            </tr>
+        </table>
     </div>
-    {% else %}
     
-        {% if forloop.index == page.full_posts %}
-        <h3>Older Posts</h3>
-        <ul>
-        {% endif %}
-    
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endif %}
 {% endfor %}
-</ul>
+
+<!-- { if forloop.index < page.full_posts } -->
