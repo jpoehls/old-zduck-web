@@ -6,17 +6,31 @@ categories:
 ---
 Here are few shots from our neighborhood firework show, enjoy!
 
-<a href="http://4.bp.blogspot.com/_uTRG_A-YdZY/RoxvGtKnMQI/AAAAAAAAAyo/4wuKb0k0hGk/s1600-h/DSC07549.JPG"><img src="http://4.bp.blogspot.com/_uTRG_A-YdZY/RoxvGtKnMQI/AAAAAAAAAyo/4wuKb0k0hGk/s320/DSC07549.JPG" /></a>
-<a href="http://1.bp.blogspot.com/_uTRG_A-YdZY/RoxvG9KnMRI/AAAAAAAAAyw/a9o9kZVMdgw/s1600-h/DSC07550.JPG"><img src="http://1.bp.blogspot.com/_uTRG_A-YdZY/RoxvG9KnMRI/AAAAAAAAAyw/a9o9kZVMdgw/s320/DSC07550.JPG" /></a>
-<a href="http://3.bp.blogspot.com/_uTRG_A-YdZY/RoxvHdKnMSI/AAAAAAAAAy4/AnXIfdy61-s/s1600-h/DSC07552.JPG"><img src="http://3.bp.blogspot.com/_uTRG_A-YdZY/RoxvHdKnMSI/AAAAAAAAAy4/AnXIfdy61-s/s320/DSC07552.JPG" /></a>
-<a href="http://4.bp.blogspot.com/_uTRG_A-YdZY/RoxvHtKnMTI/AAAAAAAAAzA/Nq50FJnx8ys/s1600-h/DSC07559.JPG"><img src="http://4.bp.blogspot.com/_uTRG_A-YdZY/RoxvHtKnMTI/AAAAAAAAAzA/Nq50FJnx8ys/s320/DSC07559.JPG" /></a>
-<a href="http://2.bp.blogspot.com/_uTRG_A-YdZY/RoxuyNKnMLI/AAAAAAAAAyA/PSAVZ0tScRs/s1600-h/DSC07538.JPG"><img src="http://2.bp.blogspot.com/_uTRG_A-YdZY/RoxuyNKnMLI/AAAAAAAAAyA/PSAVZ0tScRs/s320/DSC07538.JPG" /></a>
-<a href="http://2.bp.blogspot.com/_uTRG_A-YdZY/RoxuyNKnMMI/AAAAAAAAAyI/srzwfPt48zw/s1600-h/DSC07539.JPG"><img src="http://2.bp.blogspot.com/_uTRG_A-YdZY/RoxuyNKnMMI/AAAAAAAAAyI/srzwfPt48zw/s320/DSC07539.JPG" /></a>
-<a href="http://3.bp.blogspot.com/_uTRG_A-YdZY/RoxuydKnMNI/AAAAAAAAAyQ/g31lrgShTPA/s1600-h/DSC07540.JPG"><img src="http://3.bp.blogspot.com/_uTRG_A-YdZY/RoxuydKnMNI/AAAAAAAAAyQ/g31lrgShTPA/s320/DSC07540.JPG" /></a>
-<a href="http://3.bp.blogspot.com/_uTRG_A-YdZY/RoxuydKnMOI/AAAAAAAAAyY/r0eZUAjyYXM/s1600-h/DSC07541.JPG"><img src="http://3.bp.blogspot.com/_uTRG_A-YdZY/RoxuydKnMOI/AAAAAAAAAyY/r0eZUAjyYXM/s320/DSC07541.JPG" /></a>
-<a href="http://4.bp.blogspot.com/_uTRG_A-YdZY/RoxuytKnMPI/AAAAAAAAAyg/s0u0tLGGauo/s1600-h/DSC07548.JPG"><img src="http://4.bp.blogspot.com/_uTRG_A-YdZY/RoxuytKnMPI/AAAAAAAAAyg/s0u0tLGGauo/s320/DSC07548.JPG" /></a>
-<a href="http://4.bp.blogspot.com/_uTRG_A-YdZY/RoxuitKnMGI/AAAAAAAAAxY/Efn5EIXm4_g/s1600-h/DSC07531.JPG"><img src="http://4.bp.blogspot.com/_uTRG_A-YdZY/RoxuitKnMGI/AAAAAAAAAxY/Efn5EIXm4_g/s320/DSC07531.JPG" /></a>
-<a href="http://4.bp.blogspot.com/_uTRG_A-YdZY/RoxuitKnMHI/AAAAAAAAAxg/ZsELP7RYt3Q/s1600-h/DSC07532.JPG"><img src="http://4.bp.blogspot.com/_uTRG_A-YdZY/RoxuitKnMHI/AAAAAAAAAxg/ZsELP7RYt3Q/s320/DSC07532.JPG" /></a>
-<a href="http://1.bp.blogspot.com/_uTRG_A-YdZY/Roxui9KnMII/AAAAAAAAAxo/QA9287s88bI/s1600-h/DSC07533.JPG"><img src="http://1.bp.blogspot.com/_uTRG_A-YdZY/Roxui9KnMII/AAAAAAAAAxo/QA9287s88bI/s320/DSC07533.JPG" /></a>
-<a href="http://1.bp.blogspot.com/_uTRG_A-YdZY/Roxui9KnMJI/AAAAAAAAAxw/4T8SBDcUt3A/s1600-h/DSC07534.JPG"><img src="http://1.bp.blogspot.com/_uTRG_A-YdZY/Roxui9KnMJI/AAAAAAAAAxw/4T8SBDcUt3A/s320/DSC07534.JPG" /></a>
-<a href="http://2.bp.blogspot.com/_uTRG_A-YdZY/RoxujNKnMKI/AAAAAAAAAx4/UCxf61BrvN0/s1600-h/DSC07535.JPG"><img src="http://2.bp.blogspot.com/_uTRG_A-YdZY/RoxujNKnMKI/AAAAAAAAAx4/UCxf61BrvN0/s320/DSC07535.JPG" /></a>
+<a rel="fireworks" class="lightbox" href="/images/posts/2007-07-04/DSC07549.JPG">
+	<img src="/images/posts/2007-07-04/DSC07549-small.JPG" /></a>
+<a rel="fireworks" class="lightbox" href="/images/posts/2007-07-04/DSC07550.JPG">
+	<img src="/images/posts/2007-07-04/DSC07550-small.JPG" /></a>
+<a rel="fireworks" class="lightbox" href="/images/posts/2007-07-04/DSC07552.JPG">
+	<img src="/images/posts/2007-07-04/DSC07552-small.JPG" /></a>
+<a rel="fireworks" class="lightbox" href="/images/posts/2007-07-04/DSC07559.JPG">
+	<img src="/images/posts/2007-07-04/DSC07559-small.JPG" /></a>
+<a rel="fireworks" class="lightbox" href="/images/posts/2007-07-04/DSC07538.JPG">
+	<img src="/images/posts/2007-07-04/DSC07538-small.JPG" /></a>
+<a rel="fireworks" class="lightbox" href="/images/posts/2007-07-04/DSC07539.JPG">
+	<img src="/images/posts/2007-07-04/DSC07539-small.JPG" /></a>
+<a rel="fireworks" class="lightbox" href="/images/posts/2007-07-04/DSC07540.JPG">
+	<img src="/images/posts/2007-07-04/DSC07540-small.JPG" /></a>
+<a rel="fireworks" class="lightbox" href="/images/posts/2007-07-04/DSC07541.JPG">
+	<img src="/images/posts/2007-07-04/DSC07541-small.JPG" /></a>
+<a rel="fireworks" class="lightbox" href="/images/posts/2007-07-04/DSC07548.JPG">
+	<img src="/images/posts/2007-07-04/DSC07548-small.JPG" /></a>
+<a rel="fireworks" class="lightbox" href="/images/posts/2007-07-04/DSC07531.JPG">
+	<img src="/images/posts/2007-07-04/DSC07531-small.JPG" /></a>
+<a rel="fireworks" class="lightbox" href="/images/posts/2007-07-04/DSC07532.JPG">
+	<img src="/images/posts/2007-07-04/DSC07532-small.JPG" /></a>
+<a rel="fireworks" class="lightbox" href="/images/posts/2007-07-04/DSC07533.JPG">
+	<img src="/images/posts/2007-07-04/DSC07533-small.JPG" /></a>
+<a rel="fireworks" class="lightbox" href="/images/posts/2007-07-04/DSC07534.JPG">
+	<img src="/images/posts/2007-07-04/DSC07534-small.JPG" /></a>
+<a rel="fireworks" class="lightbox" href="/images/posts/2007-07-04/DSC07535.JPG">
+	<img src="/images/posts/2007-07-04/DSC07535-small.JPG" /></a>
