@@ -26,9 +26,7 @@
     position: relative;
     height: 5em;
     margin: 0 auto;
-    background: #48525B url(/images/bg/header.png) repeat-x bottom left;
-    border-bottom: 2px solid #48525B;
-    background-color: #48525B;
+    background: url(/images/bg/header.png) repeat-x bottom left;
 }
 
 #header ul
@@ -181,11 +179,6 @@
     border: 2px solid #fff;
 }
 
-#page a.img img:hover
-{
-    border: 2px solid #6C0437;
-}
-
 #page .category
 {
     font-size: 80%;
@@ -302,11 +295,6 @@
     
 }
 
-.postBlock .category
-{
-   font-size: 70%;
-}
-
 
 /**************************************************************
     Sidebar
@@ -347,7 +335,7 @@
     background-repeat: no-repeat;
 }
 
-.post p
+.post p, .post ol, .post ul
 {
     margin: 1em 0;
     line-height: 1.5em;
@@ -357,7 +345,7 @@
 {
     margin: 0;
     padding: 0 32px;
-    background-image: url(/images/quotes.png);
+    background-image: url(/images/chat.png);
     background-repeat: no-repeat;
     background-position: top left;
     font-size: 90%;
@@ -373,7 +361,22 @@
 .post .lightbox:hover, .post .img:hover
 {
     border: 0;
-    background-color: Transparent;
+}
+
+.post .gist .gist-highlight
+{
+    font-size: 11px;
+}
+
+.post li
+{
+    font-size: 90%;
+    margin-left: 2em;
+}
+
+.post ol li
+{
+    margin-left: 2em;
 }
 
 

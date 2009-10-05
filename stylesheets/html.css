@@ -40,7 +40,7 @@ h1
 
 h2
 {
-    font-size: 1.2em;
+    font-size: 1.1em;
     color: #586B7A;
 }
 
@@ -75,6 +75,12 @@ a img
 ul li
 {
     list-style-image: url(/images/bg/submenu1.gif);
+    line-height: 1.5em;
+    padding: .3em 0;
+}
+
+ol li
+{
     line-height: 1.5em;
     padding: .3em 0;
 }
