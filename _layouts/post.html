@@ -5,7 +5,12 @@ layout: master
     <div class="post">
         <h1>
             <a href='{{page.url}}'>{{page.title}}</a></h1>
-            <span class="date">{{page.date | date_to_string}}</span>
+            <div class="date">
+                {{page.date | date_to_string}}
+                {% for category in page.categories %}
+                <span class="category">{{category}}</span>
+                {% endfor %}
+            </div>
         {{ content }}
     </div>
 </div>

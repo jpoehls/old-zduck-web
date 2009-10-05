@@ -186,6 +186,17 @@
     border: 2px solid #6C0437;
 }
 
+#page .category
+{
+    font-size: 80%;
+    background-color: #FFFFCC;
+    border: .2em solid #FFFFCC;
+    padding: .1em;
+    color: #333;
+    padding: 0;
+    margin: 0 .2em;
+}
+
 /* Column widths */
 .width
 {
@@ -293,13 +304,7 @@
 
 .postBlock .category
 {
-    font-size: 70%;
-    background-color: #FFFFCC;
-    border: .2em solid #FFFFCC;
-    padding: .1em;
-    color: #333;
-    padding: 0;
-    margin: 0 .2em;
+   font-size: 70%;
 }
 
 
@@ -336,6 +341,10 @@
 .post .date
 {
     font-size: 80%;
+    padding-left: 25px;
+    background-image: url(/images/calendar.png);
+    background-position: left;
+    background-repeat: no-repeat;
 }
 
 .post p

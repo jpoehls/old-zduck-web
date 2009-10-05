@@ -8,7 +8,7 @@ This is my first comic strip, inspired by a random spurt of creativity.
 I can't take all the credit though. The fantastic 'lettering' was done
 by a very good friend ;)
 
-<a class="lightbox" title="Comic" href="/images/posts/2007-12-18/JK-comic-1.jpg">
+<a class="lightbox img" title="Comic" href="/images/posts/2007-12-18/JK-comic-1.jpg">
     <img src="/images/posts/2007-12-18/JK-comic-1-small.jpg" alt="comic" />
 </a>
 
