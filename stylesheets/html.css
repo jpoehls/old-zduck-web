@@ -80,16 +80,6 @@ ul li
     padding: .3em 0;
 }
 
-/* Blockquote */
-blockquote
-{
-    margin: 0;
-    padding: 0 20px;
-    background: #E7F1F3;
-    border-top: 1px solid #AAD3DB;
-    border-bottom: 1px solid #AAD3DB;
-}
-
 
 /**************************************************************
     Form Elements

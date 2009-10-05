@@ -344,6 +344,16 @@
     line-height: 1.5em;
 }
 
+.post blockquote
+{
+    margin: 0;
+    padding: 0 32px;
+    background-image: url(/images/quotes.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    font-size: 90%;
+}
+
 .post .lightbox, .post .img
 {
     display: block;
