@@ -164,6 +164,28 @@
     margin: 0 auto;
 }
 
+/* Links */
+#page a 
+{
+    color: #3E408D;
+    border-bottom: 1px solid #ccc;   
+}
+
+#page a:hover
+{
+    border-bottom: 1px solid #000;
+}
+
+#page a.img 
+{
+    border: 2px solid #fff;
+}
+
+#page a.img img:hover
+{
+    border: 2px solid #6C0437;
+}
+
 /* Column widths */
 .width
 {
@@ -173,12 +195,12 @@
 .widthPad
 {
     width: 746px;
-    background-color: #ffffff;
+    background-color: #fff;
 }
 
 .width25
 {
-    width: 24%;
+    width: 28%;
 }
 
 .width50
@@ -186,14 +208,9 @@
     width: 48%;
 }
 
-.width73
-{
-    width: 73%;
-}
-
 .width75
 {
-    width: 75%;
+    width: 68%;
 }
 
 .width100
@@ -285,9 +302,20 @@
     margin: 0 .2em;
 }
 
-.postBlock .category:hover
+
+/**************************************************************
+    Sidebar
+**************************************************************/
+
+.sidebar
 {
-    border: .2em solid gray;
+    float: right;
+    padding-left: 25px;
+}
+
+.sidebar li
+{
+    font-size: 80%;
 }
 
 
@@ -302,21 +330,31 @@
     width: 99%;
     position: relative;
     margin-bottom: 1.5em;
+    font-size: 110%;
 }
 
-.post .title
+.post .date
 {
-    display: block;
-    padding: 0 0 5px 0;
-    font-size: 1.2em;
-    font-weight: bold;
-    color: #586B7A;
+    font-size: 80%;
 }
 
-.post .lightbox
+.post p
+{
+    margin: 1em 0;
+    line-height: 1.5em;
+}
+
+.post .lightbox, .post .img
 {
     display: block;
     text-align: center;
+    border: 0;
+}
+
+.post .lightbox:hover, .post .img:hover
+{
+    border: 0;
+    background-color: Transparent;
 }
 
 

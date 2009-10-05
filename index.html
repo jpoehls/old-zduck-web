@@ -37,7 +37,7 @@ full_posts: 3
                         <a class="title" href="{{post.url}}">{{post.title}}</a>
                         
                         {% for category in post.categories %}
-                        <a class="category" href="javascript:;">{{category}}</a>
+                        <span class="category">{{category}}</span>
                         {% endfor %}
                     </td>
                 </tr>
@@ -49,7 +49,7 @@ full_posts: 3
     <!-- { if forloop.index < page.full_posts } -->
 </div>
 
-<div class="width25 horzPad" style="float: right;">
-    <h3>What I Found <a href="http://www.delicious.com/digiduck">Delicious</a></h3>
+<div class="width25 sidebar">
+    <h3>What I Find <a href="http://www.delicious.com/digiduck">Delicious</a></h3>
     <div id="delicious-posts"></div>
 </div>

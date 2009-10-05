@@ -62,13 +62,6 @@ h5
     font-size: 0.8em;
 }
 
-/* Needed to horizontally pad in a colored container */
-.horzPad h1, .horzPad h2, .horzPad h3, .horzPad h4, .horzPad h5, .horzPad p
-{
-    padding-left: 5px;
-    padding-right: 5px;
-}
-
 a 
 {
     text-decoration: none;
@@ -83,6 +76,8 @@ a img
 ul li
 {
     list-style-image: url(/images/bg/submenu1.gif);
+    line-height: 1.5em;
+    padding: .3em 0;
 }
 
 /* Blockquote */
