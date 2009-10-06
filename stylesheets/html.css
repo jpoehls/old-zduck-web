@@ -17,7 +17,7 @@ body
     margin: 0;
     padding: 0;
     text-align: center;
-    background: url(/images/bg/body.png) repeat-y top center;
+    background: #000000 url(/images/bg/body.png) repeat-y top center;
     font-size: 70%;
     font-family: verdana, arial, sans-serif;
     line-height: 170%;
