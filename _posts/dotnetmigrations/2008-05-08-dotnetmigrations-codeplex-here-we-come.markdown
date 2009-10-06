@@ -1,12 +1,12 @@
 ---
 layout: post
 title: DotNetMigrations - Code Plex here we come!
-published: false
 categories:
   - dotnetmigrations
 ---
 I just finished posting the first public release of DotNetMigrations (source code included) to CodePlex!
 
-<a href="http://www.codeplex.com/dotnetmigrations">Visit the project</a>, download the code and start migrating your schemas!
+[Visit the project](http://www.codeplex.com/dotnetmigrations), download the code and
+start migrating your schemas!
 
 Let me know if you are interested in contributing to the project.
