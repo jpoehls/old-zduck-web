@@ -45,9 +45,9 @@ Now that ViewState is disabled for my drop-down I have a few issues:
   that are set from the client are received by the server via the Request.Form or
   Request.QueryString. Since these are POST-backs, we're interested in Request.Form.
   Now we just need to know that ASP.NET uses the control's UniqueID property to name
-  the control on the client, this means that Request.Form[myDropDownCtrl.UniqueID]
+  the control on the client, this means that `Request.Form[myDropDownCtrl.UniqueID]`
   will give me the value of that drop-down list as it was sent from the client. This
-  is the exact same as myDropDownCtrl.SelectedValue. Bingo!
+  is the exact same as `myDropDownCtrl.SelectedValue`. Bingo!
 - There are ways to get the SelectedIndexChanged event to fire again but I found an
   easier work-around for my needs. This also covers #3...
   

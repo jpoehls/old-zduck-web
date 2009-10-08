@@ -19,7 +19,7 @@ I just want to create a script and run it, no compile, no exe - oh,
 and since I've been completely spoiled by the .NET Framework I want access
 to all of that too. PowerShell fits the bill.
 
-My first task. Find all files with an extension of *.bak on my C: drive and delete them.
+My first task. Find all files with an extension of \*.bak on my C: drive and delete them.
 
 Here was my discovery process...
 
@@ -52,7 +52,7 @@ I'm not sure what the differences are between that and `CTRL+C` right now.
 > **TIP:** `dir` (along with `ls`) is just an alias for the `Get-ChildItem` command.
 > You can get the full syntax for this command by running `Get-Help dir`.
 
-And if you want to delete all those *.BAK files you just found?
+And if you want to delete all those \*.BAK files you just found?
 Just pipe your `dir` command to `del` (which happens to be an alias for `Remove-Item`).
 
     dir -recurse -filter *.BAK | del
