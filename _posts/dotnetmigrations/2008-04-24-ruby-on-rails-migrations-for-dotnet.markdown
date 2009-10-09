@@ -19,7 +19,7 @@ so I won't duplicate that here. I do recommend reading the basics on
 before continuing.
 
 Suffice to say I wanted something like this to use with my .NET applications pretty bad.
-I searched around and couldn’t find anything like this for .NET (without
+I searched around and couldn't find anything like this for .NET (without
 jumping into some full blown OR/M) so I made one myself.
 
 I call it "DotNetMigrations" and it's as close to the RoR version of migrations
