@@ -6,31 +6,31 @@ categories:
 ---
 Here are few shots from our neighborhood firework show, enjoy!
 
-<a rel="fireworks" class="lightbox img" href="/images/posts/2007-07-04/DSC07549.JPG">
-	<img src="/images/posts/2007-07-04/DSC07549-small.jpg" /></a>
-<a rel="fireworks" class="lightbox img" href="/images/posts/2007-07-04/DSC07550.JPG">
-	<img src="/images/posts/2007-07-04/DSC07550-small.jpg" /></a>
-<a rel="fireworks" class="lightbox img" href="/images/posts/2007-07-04/DSC07552.JPG">
-	<img src="/images/posts/2007-07-04/DSC07552-small.jpg" /></a>
-<a rel="fireworks" class="lightbox img" href="/images/posts/2007-07-04/DSC07559.JPG">
-	<img src="/images/posts/2007-07-04/DSC07559-small.jpg" /></a>
-<a rel="fireworks" class="lightbox img" href="/images/posts/2007-07-04/DSC07538.JPG">
-	<img src="/images/posts/2007-07-04/DSC07538-small.jpg" /></a>
-<a rel="fireworks" class="lightbox img" href="/images/posts/2007-07-04/DSC07539.JPG">
-	<img src="/images/posts/2007-07-04/DSC07539-small.jpg" /></a>
-<a rel="fireworks" class="lightbox img" href="/images/posts/2007-07-04/DSC07540.JPG">
-	<img src="/images/posts/2007-07-04/DSC07540-small.jpg" /></a>
-<a rel="fireworks" class="lightbox img" href="/images/posts/2007-07-04/DSC07541.JPG">
-	<img src="/images/posts/2007-07-04/DSC07541-small.jpg" /></a>
-<a rel="fireworks" class="lightbox img" href="/images/posts/2007-07-04/DSC07548.JPG">
-	<img src="/images/posts/2007-07-04/DSC07548-small.jpg" /></a>
-<a rel="fireworks" class="lightbox img" href="/images/posts/2007-07-04/DSC07531.JPG">
-	<img src="/images/posts/2007-07-04/DSC07531-small.jpg" /></a>
-<a rel="fireworks" class="lightbox img" href="/images/posts/2007-07-04/DSC07532.JPG">
-	<img src="/images/posts/2007-07-04/DSC07532-small.jpg" /></a>
-<a rel="fireworks" class="lightbox img" href="/images/posts/2007-07-04/DSC07533.JPG">
-	<img src="/images/posts/2007-07-04/DSC07533-small.jpg" /></a>
-<a rel="fireworks" class="lightbox img" href="/images/posts/2007-07-04/DSC07534.JPG">
-	<img src="/images/posts/2007-07-04/DSC07534-small.jpg" /></a>
-<a rel="fireworks" class="lightbox img" href="/images/posts/2007-07-04/DSC07535.JPG">
-	<img src="/images/posts/2007-07-04/DSC07535-small.jpg" /></a>
+<a rel="fireworks" class="lightbox img" href="{{site.img_url}}/posts/2007-07-04/DSC07549.JPG">
+	<img src="{{site.img_url}}/posts/2007-07-04/DSC07549-small.jpg" /></a>
+<a rel="fireworks" class="lightbox img" href="{{site.img_url}}/posts/2007-07-04/DSC07550.JPG">
+	<img src="{{site.img_url}}/posts/2007-07-04/DSC07550-small.jpg" /></a>
+<a rel="fireworks" class="lightbox img" href="{{site.img_url}}/posts/2007-07-04/DSC07552.JPG">
+	<img src="{{site.img_url}}/posts/2007-07-04/DSC07552-small.jpg" /></a>
+<a rel="fireworks" class="lightbox img" href="{{site.img_url}}/posts/2007-07-04/DSC07559.JPG">
+	<img src="{{site.img_url}}/posts/2007-07-04/DSC07559-small.jpg" /></a>
+<a rel="fireworks" class="lightbox img" href="{{site.img_url}}/posts/2007-07-04/DSC07538.JPG">
+	<img src="{{site.img_url}}/posts/2007-07-04/DSC07538-small.jpg" /></a>
+<a rel="fireworks" class="lightbox img" href="{{site.img_url}}/posts/2007-07-04/DSC07539.JPG">
+	<img src="{{site.img_url}}/posts/2007-07-04/DSC07539-small.jpg" /></a>
+<a rel="fireworks" class="lightbox img" href="{{site.img_url}}/posts/2007-07-04/DSC07540.JPG">
+	<img src="{{site.img_url}}/posts/2007-07-04/DSC07540-small.jpg" /></a>
+<a rel="fireworks" class="lightbox img" href="{{site.img_url}}/posts/2007-07-04/DSC07541.JPG">
+	<img src="{{site.img_url}}/posts/2007-07-04/DSC07541-small.jpg" /></a>
+<a rel="fireworks" class="lightbox img" href="{{site.img_url}}/posts/2007-07-04/DSC07548.JPG">
+	<img src="{{site.img_url}}/posts/2007-07-04/DSC07548-small.jpg" /></a>
+<a rel="fireworks" class="lightbox img" href="{{site.img_url}}/posts/2007-07-04/DSC07531.JPG">
+	<img src="{{site.img_url}}/posts/2007-07-04/DSC07531-small.jpg" /></a>
+<a rel="fireworks" class="lightbox img" href="{{site.img_url}}/posts/2007-07-04/DSC07532.JPG">
+	<img src="{{site.img_url}}/posts/2007-07-04/DSC07532-small.jpg" /></a>
+<a rel="fireworks" class="lightbox img" href="{{site.img_url}}/posts/2007-07-04/DSC07533.JPG">
+	<img src="{{site.img_url}}/posts/2007-07-04/DSC07533-small.jpg" /></a>
+<a rel="fireworks" class="lightbox img" href="{{site.img_url}}/posts/2007-07-04/DSC07534.JPG">
+	<img src="{{site.img_url}}/posts/2007-07-04/DSC07534-small.jpg" /></a>
+<a rel="fireworks" class="lightbox img" href="{{site.img_url}}/posts/2007-07-04/DSC07535.JPG">
+	<img src="{{site.img_url}}/posts/2007-07-04/DSC07535-small.jpg" /></a>

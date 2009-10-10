@@ -9,7 +9,7 @@ categories:
 That's the slogan of the recently launched project, UserViews ([http://www.userviews.net](http://www.userviews.net)).
 
 <a class="img" href="http://www.userviews.net">
-	<img src="/images/posts/userviews.gif" /></a>
+	<img src="{{site.img_url}}/posts/userviews.gif" /></a>
 
 The site offers a clean, independent atmosphere to search for opinions and reviews 
 on software you're interested in. It also offers a couple of quick ways
