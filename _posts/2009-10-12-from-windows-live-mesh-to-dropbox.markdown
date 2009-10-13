@@ -22,7 +22,7 @@ synchronize these files between my computers. Before that I was
 using Windows Live Sync. I'm actually still using Live Sync for
 some things (more on that later) but I have made the switch from Mesh
 to Dropbox. Bottom line, Dropbox "just works" and it keeps me in the
-loop while it’s doing it. Let me explain.
+loop while it's doing it. Let me explain.
 
 ## Windows Live Mesh
 
@@ -59,7 +59,7 @@ of your sync'd folders.
   <img src="{{site.img_url}}/posts/mesh_log_small.jpg" /></a>
 
 All too often I would update files and trust Mesh to sync them only
-to find out later that Mesh never picked up on the changes. Maybe it’s
+to find out later that Mesh never picked up on the changes. Maybe it's
 just the fancy UI they've given it, but I don't feel like the News pane
 is giving me all the details about which files have been uploaded, when,
 and which ones are still in progress.
@@ -91,7 +91,7 @@ The Windows client for Dropbox is perfect. I get status overlays on all
 of the files and folders in My Dropbox that indicates whether they are
 up-to-date or downloading (+1 for acting like TortoiseSVN!). I get real-time
 balloon messages from my notification area whenever a file is changed, even
-when it’s on another computer. For instance if I update a file on my desktop,
+when it's on another computer. For instance if I update a file on my desktop,
 I'll get a notification as soon as my laptop receives the update. This does
 wonders for making me feel "in the loop" and confident that my files are being
 kept up-to-date.
