@@ -346,12 +346,12 @@
 
 .post blockquote
 {
-    margin: 0;
+    margin: 1em 0;
     padding: 0 32px;
-    background-image: url(/images/chat.png);
-    background-repeat: no-repeat;
-    background-position: top left;
     font-size: 90%;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    background-color: #e1e1e1;
 }
 
 .post .lightbox, .post .img
