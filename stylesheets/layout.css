@@ -15,7 +15,6 @@
     min-height: 100%;
 }
 
-
 /**************************************************************
     Top menu and logo
 **************************************************************/
@@ -172,6 +171,10 @@
 #page a:hover
 {
     border-bottom: 1px solid #000;
+}
+
+#page a, #page a.retweet:hover {
+    border: 0;
 }
 
 #page a.img 

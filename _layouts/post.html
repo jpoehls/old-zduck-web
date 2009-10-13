@@ -11,6 +11,8 @@ guesswho: itsme
                 {% for category in page.categories %}
                 <span class="category">{{category}}</span>
                 {% endfor %}
+                
+                <a class="retweet" href="{{site.url}}/{{page.url}}">{{page.title}}</a>
             </div>
         {{ content }}
         
