@@ -6,8 +6,9 @@ categories:
 ---
 For the past couple years I've been able to attend both days of
 [Tulsa TechFest](http://techfests.com/Tulsa/2009/default.aspx), a developer
-conference here in Oklahoma, and this year is I'm going back! It's only a one
-day event this time around but I have managed to pick out some sessions that interest me.
+conference here in Oklahoma, and this year I'm going back! Interestingly,
+it's only a one day event this time. I hope this isn't a sign of
+dwindling support for the event.
 
 Attendance is $2 or 2 cans of food. Right up my alley.
 
@@ -23,13 +24,9 @@ here's what I'm currently planning on attending:
    [MassTransit](http://code.google.com/p/masstransit/) project that he
    is partnered on and I am looking forward to seeing him present again this year.
     
--  2:30p 'Logos That Really Work' with JP Jones OR 'Leveraging Client Capabilities
-   with jQuery in Visual Studio and ASP.NET' with Robert Boedigheimer
-    
-   This choice will boil down to how good Robert is in the first
-   session and whether or not a break is needed from the programming side
-   of things. JP Jones' session looks like a lot of fun.
+-  2:30p 'Logos That Really Work' with JP Jones
 
+-  4:00p 'Leveraging Client Capabilities with jQuery in Visual Studio and ASP.NET' with Robert Boedigheimer
 
 Oh yeah, and I'll be taking advantage of the crowd this year to shamelessly promote my blog.
 
