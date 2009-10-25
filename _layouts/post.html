@@ -11,6 +11,8 @@ guesswho: itsme
                 {% for category in page.categories %}
                 <span class="category">{{category}}</span>
                 {% endfor %}
+                
+                <a class="retweet" href="{{site.url}}{{page.url}}">{{page.title}}</a>
             </div>
         {{ content }}
         
@@ -18,6 +20,11 @@ guesswho: itsme
     </div>
 </div>
 <div class="width25 sidebar">
+    <p style="margin-bottom: 1.5em;">
+      <a class="img" href="http://twitter.com/thezduck">
+        <img src="/images/twitter.gif" alt="Follow me on twitter!" /></a>
+    </p>
+
     <h3>
         Other Posts</h3>
     <ul>

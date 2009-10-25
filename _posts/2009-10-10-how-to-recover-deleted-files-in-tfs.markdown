@@ -1,7 +1,6 @@
 ---
 layout: post
 title: How to Recover Deleted Files in TFS
-published: false
 categories:
   - tfs
   - coding
