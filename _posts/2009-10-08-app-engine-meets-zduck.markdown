@@ -7,7 +7,7 @@ categories:
 ---
 And... we're back.
 
-I appologize if you are subscribed to my feed and are seeing old posts
+I apologize if you are subscribed to my feed and are seeing old posts
 show up. The thing is, I've completely overhauled my blog.
 
 If you only read the feed, check out the site in full color at [www.zduck.com](http://www.zduck.com).
