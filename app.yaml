@@ -11,6 +11,10 @@ handlers:
 - url: /resume
   static_dir: resume
 
+- url: /resume
+  static_files: resume/index.htm
+  upload: resume/index.htm
+
 - url: /images
   static_dir: images
   
