@@ -1,2 +1,3 @@
 #! /bin/bash
+./jekyllme
 ../appcfg.py --email=jdpoehls@gmail.com update publish
