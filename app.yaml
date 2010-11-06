@@ -8,6 +8,9 @@ handlers:
   static_files: index.html
   upload: index.html
 
+- url: /resume
+  static_dir: resume
+
 - url: /images
   static_dir: images
   

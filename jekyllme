@@ -1,0 +1,2 @@
+#! /bin/bash
+jekyll $1 publish

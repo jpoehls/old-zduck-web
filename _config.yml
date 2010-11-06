@@ -1,4 +1,4 @@
-﻿destination: ../publish/zduck-web
+﻿destination: publish
 lsi: false
 pygments: false
 markdown: maruku

@@ -1,1 +1,0 @@
-c:\ruby\bin\jekyll %1 ../publish/zduck-web
