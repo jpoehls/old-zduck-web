@@ -1,1 +1,1 @@
-c:\ruby\bin\jekyll %1 publish
+jekyll %1 publish
