@@ -46,3 +46,6 @@ handlers:
   
 - url: /familyphotos
   script: offsite_redirects.py
+
+- url: /house
+  script: offsite_redirects.py

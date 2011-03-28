@@ -19,9 +19,14 @@ class FamilyPhotos(webapp.RequestHandler):
       # Joshua & Kristina's FAMILY & FRIENDS photostream
       self.redirect("http://www.flickr.com/gp/25531422@N08/2AZM06")
 
+class House(webapp.RequestHandler):
+  def get(self):
+    self.redirect("http://zduck.com/house")
+
 application = webapp.WSGIApplication(
                                      [('/photos', Photos),
-                                      ('/familyphotos', FamilyPhotos)],
+                                      ('/familyphotos', FamilyPhotos),
+                                      ('/house', House)],
                                      debug=True)
 
 def main():
