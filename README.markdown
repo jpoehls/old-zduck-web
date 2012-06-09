@@ -1,3 +1,5 @@
+This is an old copy of my blog. My current blog is in another repository. This is only kept around incase I get curious about what my site used to look like.
+
 Joshua Poehls (Zduck) Blog
 ==================
 
